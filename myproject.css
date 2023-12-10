@@ -1,0 +1,336 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+#firstsec{
+    width: 100%;
+    height: 100vh;
+}
+#container::before{
+   
+    content: " ";
+    background:linear-gradient(rgba(228, 168, 94, 0.3)100%,rgba(228, 168, 94, 0.3)100%),url('https://www.usnews.com/object/image/00000178-f4fa-d258-a5f9-fdffb8ec0000/39-minitas-beach-club2.jpg?update-time=1678805410349&size=responsive640')no-repeat center center/cover ;
+    
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+   
+    
+}
+#navbar{
+    display: flex;
+    position: relative;
+    top: 0px;
+    /* background-color: aqua; */
+}
+#navbar ul{
+    display: flex;
+}
+#navbar::before{
+    content: " ";
+    /* background-color: rgb(227, 217, 217); */
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.3;
+   
+}
+#navbar ul {
+    list-style: none;
+    font-size: 2rem;
+
+}
+#navbar ul li{
+    padding: 8px 13px;
+    font-family: 'Caprasimo';
+}
+#navbar ul li a {
+    color: rgb(231, 231, 237);
+    text-decoration: none;
+    display: block;
+    padding: 10px 32px;
+    /* border: 2px solid black; */
+    border-radius: 12px;
+    /* background-color: aliceblue; */
+   
+}
+h2{
+    display: flex;
+}
+#container h2{
+    color:black;
+    text-align: center;
+    justify-content: center;
+    padding: 110px 11px;
+    font-size: 2.8rem;
+    font-family: 'Dancing Script';
+    /* padding-bottom:37px ; */
+}
+#container h1{
+    text-align: center;
+    justify-content: center;
+    padding: 12px 11px;
+    font-size: 5.8rem;
+    font-family:'Dosis';
+    color: black;
+}
+#container #resort{
+    padding-top: 12px;
+    font-family: 'Dancing Script';
+    color: black;
+}
+#learn {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    text-align: center;
+    justify-content: center;
+    display: inline;
+    padding: 18px 45px;
+    border: 2px solid black;
+    border-radius: 36px;
+    background-color: aliceblue;
+    margin: auto;
+    font-size: 1.3rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    cursor: pointer;
+}
+#learn:hover{
+    background-color: bisque;
+    font-weight: bold;
+}
+.more{
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+#navbar ul li a:hover{
+    color: black;
+}
+
+#second{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(224, 219, 214);
+   display: flex;
+   /* flex-direction: row; */
+   justify-content: center;
+   align-items: center;
+}
+#welcome{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 80px;
+}
+.head{
+    font-size: 4.8rem;
+    font-family: 'Bacasime Antique';
+    color: rgb(88, 20, 20);
+   
+}
+#welcome p{
+    padding-top: 101px;
+    font-size: 1.7rem;
+    font-family:'Dosis';
+    color: rgb(124, 86, 39);
+}
+#image{
+    width: 1550px;
+    height: 650px;
+    padding-right: 90px;
+}
+#accommodations{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(211, 203, 194);
+}
+.same{
+    text-align: center;
+    font-size: 3.8rem;
+    padding-top: 147px;
+    font-family: 'Bacasime Antique';
+    color: rgb(88, 20, 20);
+}
+.roompics{
+    padding-top: 62px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.room{
+    padding-right: 40px;
+    height: 540px;
+    width: 674px;
+}
+.sea{
+    padding-right: 40px;
+    height: 540px;
+    width: 674px;
+}
+.family{
+    padding-right: 40px;
+    height: 540px;
+    width: 674px;
+}
+.roompics .dr{
+    font-family:'Dosis';
+    font-size:1.4rem ;
+    margin-top: 20px;
+    padding: 18px;
+    width: 634px;
+    border: 2px solid rgb(89, 68, 43);
+    color:rgb(89, 68, 43);
+}
+.dr{
+    padding-right: 40px;
+}
+.dr h2{
+    font-size: 40px;
+}
+.famisu{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(224, 219, 214);
+    align-items: center;
+}
+#about h1{
+    padding-top: 100px;
+    padding-left: 70px;
+}
+#paraim img{
+    height: 702px;
+    width: 882px;
+    padding-bottom: 20px;
+    /* padding-top: 100px;
+    margin: 12px;
+    padding-left: 63px;
+    padding-right: 88px; */
+}
+#paraim p{
+    
+    border: 2px solid rgb(89, 68, 43);
+    width: 882px;
+    text-align: center;
+   padding: 20px;
+   font-family:'Dosis';
+   font-style: italic;
+   font-weight: bold;
+   color: rgb(174, 126, 67);
+   font-size: 1.3rem;
+}
+#paraim{
+    padding-top: 100px;
+    margin: 12px;
+    padding-left: 63px;
+    padding-right: 88px;
+ 
+}
+#about p{
+    padding-top: 41%;
+    padding-left: 70px;
+    font-family:'Dosis';
+    color: rgb(174, 126, 67);
+    font-size: 1.3rem;
+    font-weight: bold;
+    
+ 
+}
+
+#din img{
+    height: 691px;
+    width: 700px;
+    padding-top: 9px;
+    padding-bottom: 20px;
+}
+#basin{
+    padding-bottom: 10px;
+    margin-top: 15px;
+}
+#basin img{
+    height: 691px;
+    width: 1426px;
+    padding-bottom: 20px;
+}
+#din{
+    margin-top: 5px;
+}
+#din p{
+    text-align: center;
+    border: 2px solid rgb(89, 68, 43);
+    width: 700px;
+    padding: 10px;
+    font-size: 1.4rem;
+    font-family:'Dosis';
+    font-style: italic;
+    color: rgb(114, 83, 44);
+    font-weight: bold;
+}
+#basin p{
+    text-align: center;
+    border: 2px solid rgb(89, 68, 43);
+    padding: 18px;
+    font-size: 1.4rem;
+    font-family:'Dosis';
+    font-style: italic;
+    color: rgb(114, 83, 44);
+    font-weight: bold;
+}
+#promos{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(211, 203, 194);
+}
+#prom{
+    padding-top: 40px;
+}
+#press::before{
+    content: " ";
+    background:linear-gradient(rgba(154, 116, 70, 0.5)100%,rgba(154, 116, 70, 0.5)100%),url('https://r2imghtlak.mmtcdn.com/r2-mmt-htl-image/htl-imgs/202204082217243212-86cb4d202ee111ed87400a58a9feac02.jpg')no-repeat center center/cover ;
+    /* opacity: 1; */
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    z-index: -1;
+}
+#review{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 200px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.inp{
+    color: white;
+    /* border: 2px solid red; */
+    margin: 30px;
+    font-size: 2rem;
+    font-family:'Bree Serif';
+    /* font-weight: bold; */
+}
+.inp h1{
+    font-size: 2.8rem;
+    /* font-weight: bold; */
+   font-family:'Times New Roman', Times, serif;
+}
+#presshead{
+    text-align: center;
+    padding-top: 100px;
+    font-size: 80px;
+    color: white;
+    font-family: 'Bacasime Antique';
+}

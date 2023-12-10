@@ -1,0 +1,107 @@
+/* #navbar ul{
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* padding:auto;
+    margin: auto; */
+    /* flex-wrap: wrap; */
+/* }
+#container::before{
+    height: 233%;
+    width: 250%;
+}
+#firstsec {
+    width: 157%;
+    height: 376vh;
+} */ 
+/* *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+} */
+html{
+    width: 1421px;
+}
+#navbar ul{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: auto;
+    margin: auto;
+    flex-wrap: wrap;
+    
+}
+#container::before{
+      width: 1421px;
+      height: 1748px;
+      
+}
+#container{
+    padding-left: 500px;
+   
+}
+#second{
+    /* padding-top: 100px; */
+    margin-top: 382px;
+    /* width: 1391px; */
+    /* height:1246px ; */
+}
+#image{
+    padding-right: 87px;
+}
+.roompics{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+  
+}
+#accommodations{
+    height: 2897px;
+    padding: auto;
+}
+.box{
+    padding-top: 50px;
+}
+#promos{
+    height: 2897px;
+}
+#press::before{
+    width: 1421px;
+      height: 1246px;
+
+}
+#review{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.inp{
+    text-align: center;
+}
+#diff{
+    flex-direction: column;
+    height: 1742px;
+   margin-top: 0px;
+}
+#second{
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 1246px;
+}
+#second img{
+    width: 1100px;
+    padding-left: 100px;
+}
+#suite{
+    height: 1244px;
+}
+#basin img{
+    width: 98%;
+}
+#basin p{
+    width: 98%;
+}
+#press::before{
+    height: 1742px;
+}
